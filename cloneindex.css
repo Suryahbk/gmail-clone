@@ -3,7 +3,6 @@
     padding: 0;
   }
   
-  /* Header */
   .header__left img {
     object-fit: contain;
     height: 80px;
@@ -59,7 +58,6 @@
     cursor: pointer;
   }
   
-  /* Sidebar */
   .sidebar {
     flex: 0.3;
     max-width: 300px;
@@ -119,18 +117,7 @@
     color: #c04b37;
     font-weight: 800;
   }
-  
- /* .sidebar__footer {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .sidebar__footerIcons .material-icons {
-    margin: 7px;
-    cursor: pointer;
-  } */
-  
-  /* main body */
+
   .main__body {
     display: flex;
     height: 100vh;
@@ -141,7 +128,6 @@
     overflow-y: hidden;
   }
   
-  /* email list */
   .emailList {
     flex: 1;
     overflow: scroll;
@@ -260,7 +246,3 @@
     font-weight: bold;
   }
   
- /* .emailRow__description {
-    font-weight: 400;
-    color: grey;
-  } */
